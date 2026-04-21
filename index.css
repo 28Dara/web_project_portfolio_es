@@ -5,6 +5,25 @@
   box-sizing: border-box;
 }
 
+/* Fuentes locales */
+@font-face {
+  font-family: "Open Sans";
+  src:
+    url("./fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("./fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archivo Black";
+  src:
+    url("./fonts/ArchivoBlack-Regular.woff2") format("woff2"),
+    url("./fonts/ArchivoBlack-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Página */
 .page {
   margin: 0;
@@ -36,4 +55,10 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Archivo Black", Arial, sans-serif;
 }
