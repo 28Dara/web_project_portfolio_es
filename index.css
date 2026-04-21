@@ -1,0 +1,39 @@
+/* Reset básico */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Página */
+.page {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Contenedor principal */
+.content {
+  width: 100%;
+}
+
+/* Imágenes responsivas por defecto */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Links sin estilos por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Listas sin bullets */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
