@@ -1,6 +1,17 @@
 .header {
   margin: 0;
   padding: 0;
+
+  background:
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(201, 162, 39, 0.35) 0%,
+      rgba(201, 162, 39, 0.15) 25%,
+      transparent 50%
+    ),
+    #000;
+
+  min-height: 100vh;
 }
 
 .header__content {
@@ -20,10 +31,10 @@
 }
 
 .header__image {
-  max-width: 390px;
-  min-width: 190px;
-  max-height: 500px;
-  min-height: 300px;
+  max-width: 450px;
+  min-width: 350px;
+  max-height: 450px;
+  min-height: 350px;
 }
 
 .header__nav-links {
@@ -57,20 +68,23 @@
 .header__profile {
   font-size: 18px;
   opacity: 50%;
+  padding-bottom: 20px;
+  color: #ffd900ee;
 }
 
 .header__description {
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 .header__nav-link {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 600;
-  padding-bottom: 6px;
-  border-bottom: 5px solid transparent;
-  border-image: linear-gradient(70deg, #bca000, #ffdd1b) 1;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(70deg, #c9a227, #ffdd1b) 1;
 }
 
 .header__skills-title {
   font-size: 40px;
+  padding-bottom: 25px;
 }
