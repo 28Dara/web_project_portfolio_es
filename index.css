@@ -1,11 +1,11 @@
-/* Reset básico */
+@import url(styles/header.css);
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Fuentes locales */
 @font-face {
   font-family: "Open Sans";
   src:
@@ -24,7 +24,6 @@
   font-style: normal;
 }
 
-/* Página */
 .page {
   margin: 0;
   font-family: "Open Sans", Arial, sans-serif;
@@ -36,6 +35,14 @@
 /* Contenedor principal */
 .content {
   width: 100%;
+}
+
+.header,
+.content,
+.footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 /* Imágenes responsivas por defecto */

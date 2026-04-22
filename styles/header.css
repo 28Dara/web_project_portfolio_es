@@ -1,0 +1,47 @@
+.header {
+  margin: 0;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__text {
+  flex: 1;
+}
+
+.header__text > * {
+  margin-bottom: 24px;
+}
+
+.header__image {
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.header__nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.header__skills {
+  margin-top: 96px;
+}
+
+.header__skills-title {
+  margin-bottom: 20px;
+}
+
+.header__skills-list {
+  display: flex;
+  gap: 28px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.header__skills-icon {
+  width: 50px;
+}
