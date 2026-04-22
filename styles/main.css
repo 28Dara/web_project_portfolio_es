@@ -10,7 +10,7 @@
 
 .projects__grid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .projects__title {
