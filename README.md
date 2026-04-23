@@ -1,5 +1,6 @@
-#Portfolio Web
-##Descripción
+# Portfolio Web
+
+## Descripción
 
 Este proyecto consiste en el desarrollo de un sitio web de portafolio personal como parte del Sprint 4 del programa de Desarrollo Web de TripleTen.
 
@@ -7,7 +8,7 @@ El objetivo es presentar información profesional, habilidades técnicas y proye
 
 El diseño está basado en un prototipo de Figma y fue implementado utilizando HTML y CSS, aplicando buenas prácticas de maquetación, organización de estilos y adaptación a múltiples resoluciones.
 
-##Características principales
+## Características principales
 
 Diseño completamente responsivo (Desktop, Tablet y Mobile)
 Implementación de layout adaptable con Flexbox y Grid
@@ -17,7 +18,7 @@ Organización modular del CSS por secciones (header, main, footer)
 Uso de assets optimizados (íconos e imágenes)
 Navegación clara con enlaces a proyectos y redes sociales
 
-##Tecnologías utilizadas
+## Tecnologías utilizadas
 
 HTML5 semántico
 CSS3
@@ -28,7 +29,7 @@ Normalize.css
 Fuentes locales (Open Sans y Archivo Black)
 Diseño Responsivo
 
-##El sitio está optimizado para los siguientes puntos de ruptura:
+## El sitio está optimizado para los siguientes puntos de ruptura:
 
 1440px (Desktop)
 1100px (Ajustes intermedios)
@@ -39,7 +40,7 @@ Diseño Responsivo
 320px (Mobile mínimo)
 Se cuidó que el diseño no se rompa en resoluciones intermedias.
 
-##Estructura del proyecto
+## Estructura del proyecto
 
 /icons
 /images
@@ -51,16 +52,20 @@ Se cuidó que el diseño no se rompa en resoluciones intermedias.
 index.html
 index.css
 
-##Estado del proyecto
+## Estado del proyecto
 
 Finalizado a nivel funcional.
 
-##Pendiente:
+## Pendiente:
 
 Posible optimización visual adicional
 Revisión de accesibilidad
 
-##Autor
+## Demo en vivo
+
+https://28dara.github.io/web_project_portfolio_es/
+
+## Autor
 
 Dara Rangel
 Desarrollador Full-Stack Junior
