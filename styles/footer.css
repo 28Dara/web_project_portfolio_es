@@ -3,8 +3,6 @@
 ========================= */
 
 .footer__content {
-  max-width: 1500px;
-  margin: 0 auto; /* centrado real (antes estaba en 0) */
   text-align: center;
 
   display: flex;
