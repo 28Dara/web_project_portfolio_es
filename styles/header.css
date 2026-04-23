@@ -210,10 +210,6 @@
     font-size: 16px;
   }
 
-  .header__description {
-    font-size: 16px; /* mejor lectura en mobile */
-  }
-
   .header__skills-title {
     font-size: 28px;
     margin-bottom: 40px;
