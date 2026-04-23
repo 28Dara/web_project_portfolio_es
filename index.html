@@ -64,11 +64,19 @@
             </nav>
           </div>
 
-          <img
-            class="header__image"
-            src="images/dara_pic_pc_mob.png"
-            alt="Foto de perfil de Dara Rangel"
-          />
+          <picture class="header__image">
+            <!-- Imagen vertical (tablet) -->
+            <source
+              media="(max-width: 1013px) and (min-width: 601px)"
+              srcset="images/dara_pic_tablet.png"
+            />
+
+            <!-- Imagen default (desktop + mobile final) -->
+            <img
+              src="images/dara_pic_pc_mob.png"
+              alt="Foto de perfil de Dara Rangel"
+            />
+          </picture>
         </div>
 
         <div class="header__skills">
@@ -230,7 +238,60 @@
     </main>
 
     <footer class="footer">
-      <!-- footer -->
+      <div class="footer__content">
+        <h2 class="footer__title">Contacto</h2>
+
+        <p class="footer__email">
+          <a href="mailto:dara.esra28@gmail.com" class="footer__email-link">
+            dara.esra28@gmail.com
+          </a>
+        </p>
+
+        <div class="footer__socials">
+          <a
+            href="www.linkedin.com/in/victor-rangel-995326228"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <img
+              src="./icons/redes_linkedin.png"
+              alt="LinkedIn"
+              class="footer__icon"
+            />
+          </a>
+
+          <a
+            href="https://www.facebook.com/dara.dkl"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <img
+              src="./icons/redes_face.png"
+              alt="Facebook"
+              class="footer__icon"
+            />
+          </a>
+
+          <a
+            href="https://www.instagram.com/dara_dkl/"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <img
+              src="./icons/redes_insta.png"
+              alt="Instagram"
+              class="footer__icon"
+            />
+          </a>
+          <a
+            href="https://x.com/DaraTheKid"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <img src="./icons/redes_x.png" alt="X" class="footer__icon" />
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
