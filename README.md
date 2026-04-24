@@ -42,15 +42,23 @@ Se cuidó que el diseño no se rompa en resoluciones intermedias.
 
 ## Estructura del proyecto
 
+/documents
+/fonts
 /icons
 /images
 /styles
 ├── header.css
 ├── main.css
 └── footer.css
+└── index.css
 /vendor
+└──normalize.css
 index.html
-index.css
+-editorconfig
+.prettierignore
+favicon.ico
+index.html
+README.md
 
 ## Estado del proyecto
 
