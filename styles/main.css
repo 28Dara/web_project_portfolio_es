@@ -1,13 +1,9 @@
-/* =========================
-   MAIN BASE
-========================= */
-
 .main {
   padding: 40px 0;
 }
 
 .projects {
-  margin-top: 50px; /* separación respecto al header */
+  margin-top: 50px;
 }
 
 .projects__title {

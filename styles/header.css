@@ -105,27 +105,25 @@
 /* ====== 1100px ====== */
 @media (max-width: 1100px) {
   .header__content {
-    gap: 16px; /* reducimos espacio entre texto e imagen para evitar estiramiento */
+    gap: 16px;
   }
 
   .header__title {
-    font-size: 70px; /* baja un poco para que no empuje demasiado el layout */
+    font-size: 70px;
   }
 }
 
 /* ====== 960px (CAMBIO DE IMAGEN + PROPORCIÓN) ====== */
 @media (max-width: 960px) {
   .header__image {
-    width: 50%; /* proporcional como definiste */
+    width: 50%;
   }
-
-  /* aquí cambiarás la imagen manualmente en HTML si quieres otra versión */
 }
 
 /* ====== 768px (TABLET) ====== */
 @media (max-width: 768px) {
   .header__title {
-    font-size: 58px; /* escala tipografía */
+    font-size: 58px;
   }
 
   .header__skills-title {
@@ -135,22 +133,22 @@
 /* ====== 600px (CAMBIO ESTRUCTURAL) ====== */
 @media (max-width: 600px) {
   .header__content {
-    flex-direction: column; /* layout vertical */
-    align-items: center; /* centramos todo */
-    text-align: center; /* texto centrado */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .header__image {
     width: 95%;
-    max-width: none; /* eliminamos límite de desktop */
+    max-width: none;
   }
 
   .header__text {
-    max-width: 100%; /* ocupa todo el ancho disponible */
+    max-width: 100%;
   }
 
   .header__nav-links {
-    flex-direction: column; /* botones en columna */
+    flex-direction: column;
     gap: 16px;
     align-items: center;
   }
@@ -159,7 +157,7 @@
 /* ====== 480px (REFINAMIENTO) ====== */
 @media (max-width: 480px) {
   .header {
-    padding: 0 5px; /* reducimos padding lateral */
+    padding: 0 5px;
   }
 
   .header__title {
@@ -167,7 +165,7 @@
   }
 
   .header__description {
-    font-size: 16px; /* mejor lectura en mobile */
+    font-size: 16px;
   }
 
   .header__image {
@@ -176,7 +174,7 @@
   }
 
   .header__skills-list {
-    flex-wrap: wrap; /* permite bajar elementos */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
   }
